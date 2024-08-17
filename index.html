@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/remixicon.css">
+    <title>Web Design | Responsive Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Loga Priya</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <section id="home" class="section active">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Loga Priya<br />a</span> Web Developer
+          </h1>
+          <p class="description">
+            Welcome to my web developer portfolio! I'm Loga Priya M, a skilled and creative web developer with a passion for creating beautiful, responsive, and user-friendly websites. I am constantly learning and adapting to new technologies to stay updated with the latest trends in web development.
+          </p>
+          <div class="action__btns">
+            <button class="hire__me" onclick="showSection('contact')">Hire Me</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="about1.jpg" alt="About Image" />
+        </div>
+      </div>
+    </section>
+    
+    <section id="about" class="section">
+      <div class="section__container">
+        <div class="content">
+          <h1 class="title">About Me</h1>
+          <p class="description">
+            I am Loga Priya M, a passionate web developer with expertise in creating modern and responsive web applications. With a strong foundation in HTML, CSS, JavaScript, and various web development frameworks, I strive to deliver high-quality projects that meet client requirements and exceed expectations. My journey in web development began with a curiosity for technology and has evolved into a career focused on continuous learning and innovation.
+          </p>
+        </div>
+        <div class="about-image-container">
+          <img src="pic1.jpg" alt="Loga Priya" class="about-image" />
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <section id="skills" class="section">
+      <div class="section__container">
+        <div class="content">
+          <h1 class="title">Skills</h1>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">🌐</div>
+              <div class="skill-title">HTML</div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%;"></div>
+              </div>
+              <div class="skill-description">Proficient in HTML5 and semantic markup.</div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-icon">🎨</div>
+              <div class="skill-title">CSS</div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 80%;"></div>
+              </div>
+              <div class="skill-description">Experienced with modern CSS and pre-processors.</div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-icon"> 📜 </div>
+              <div class="skill-title">JavaScript</div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%;"></div>
+              </div>
+              <div class="skill-description">Skilled in JavaScript and various frameworks.</div>
+            </div>
+            
+              <p class="skill-description">Experienced in JavaScript, including ES6+ features and modern frameworks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="projects" class="section">
+      <div class="section__container">
+        <div class="content">
+          <h1 class="title">Projects</h1>
+          <div class="project">
+            <h3>Responsive Cake Baking Landing Page</h3>
+            <p>This project is a responsive landing page designed for a cake baking business. </p>
+             <p> It features a modern and visually appealing design with sections that showcase various cake offerings, 
+              customer testimonials, and a contact form.</p>
+              <p>The landing page is optimized for different devices, ensuring a seamless user experience on desktops, tablets, and smartphones.</p>
+            <video controls>
+              <source src="project.mov" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="resume" class="section">
+      <div class="section__container">
+        <div class="content">
+          <h1 class="title">My Resume</h1>
+          <a href="resume.jpeg" class="view-resume" target="_blank">View Resume</a>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="section">
+      <div class="section__container">
+        <div class="content">
+          <h1 class="title">Contact Me</h1>
+          <p class="description">
+            Feel free to reach out to me through any of the following methods:
+          </p>
+          <ul class="contact-info">
+            <li>Email: <a href="mailto:logapriyam2@gmail.com">logapriyam2@gmail.com</a></li>
+            <li>Phone: <a href="tel:+1234567890">+123-456-7890</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/loga-priya-m-6ab194256" target="_blank">linkedin.com/in/logapriya</a></li>
+            <li>GitHub: <a href="https://github.com/logapriyam2" target="_blank">github.com/logapriya</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <p>&copy; 2024 Loga Priya. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
